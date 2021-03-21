@@ -1,0 +1,71 @@
+.wrapper {
+    background-color: white;
+    display: grid;
+    grid-auto-columns: minmax(200px, auto);
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 15px;
+}
+
+.it1 {
+    background-color: #7ab6ff;
+    grid-column: span 7;
+    grid-row: 1/1;
+}
+
+.it2 {
+    background-color: #ab67db;
+    grid-column: span 7;
+    grid-row: 2/2;
+}
+
+.it3 {
+    background-color: #17592f;
+    grid-column: 1/5;
+    grid-row: 3/3;
+}
+
+.it4 {
+    background-color: #32659c;
+    grid-column: 5/8;
+    grid-row: 3/3;
+}
+.it5{
+background-color: #d99709;
+    grid-row: 4/4;
+    grid-column-end: 2;
+}
+.it6{
+background-color: #16a827;
+    grid-row: 4/4;
+    grid-column: 3/4;
+}
+.it7{
+    background-color: red;
+    grid-column: 4/8;
+    grid-row: 4/4;
+}
+.it8{
+    background-color: gold;
+    grid-row: 5/8;
+    grid-column: 1/4;
+}
+.it9{
+    background-color: lime;
+    grid-row: 5/5;
+    grid-column: 4/4
+}
+.it10{
+    background-color: #5eff00;
+    grid-row: 5/5;
+    grid-column: 7/8;
+}
+.it11{
+    background-color: aqua;
+    grid-row: 6/8;
+    grid-column: 4/8;
+}
+.it12{
+    background-color: #4c12b0;
+    grid-row: 8/8;
+    grid-column: span 7;
+}
