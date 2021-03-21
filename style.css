@@ -9,7 +9,7 @@
 .it1 {
     background-color: #7ab6ff;
     grid-column: span 7;
-    grid-row: 1/1;
+    height: 80px;
 }
 
 .it2 {
